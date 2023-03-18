@@ -3,7 +3,7 @@ import java.awt.Point;
 
 // TODO
 public abstract class Character {
-    	private String name;
+	private String name;
     private Point Location;
     private int maxHp;
     private int currentHp;
