@@ -7,7 +7,7 @@ public class Hero extends Character {
     private int maxActions;
     private boolean specialAction;
     private Vaccine[] vaccineInventory;
-    private Supply[] supplyInventoy;
+    private Supply[] supplyInventory;
     
 	public Hero(String name, int maxHp, int attackDmg, int maxActions) {
 		super(name, maxHp, attackDmg);
@@ -36,8 +36,8 @@ public class Hero extends Character {
 		return vaccineInventory;
 	}
 	
-	public Supply[] getSupplyInventoy() {
-		return supplyInventoy;
+	public Supply[] getSupplyInventory() {
+		return supplyInventory;
 	}
 	
 }
