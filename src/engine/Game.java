@@ -1,6 +1,7 @@
 package engine;
 
 import model.characters.*;
+import model.world.Cell;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -11,7 +12,7 @@ public class Game {
     public static ArrayList<Hero> availableHeros;
     public static ArrayList<Hero> heros;
     public static ArrayList<Zombie> zombies;
-    public static Cell [][] map;
+    public static Cell[][] map;
 
     public static void loadHeros(String path) throws FileNotFoundException {
         File file = new File(path);
