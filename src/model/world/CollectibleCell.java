@@ -7,7 +7,8 @@ public class CollectibleCell extends Cell {
 	public Collectible getCollectible() {
 		return collectible;
 	}
-	public CollectibleCell(){
+	public CollectibleCell(Collectible collectible){
+		this.collectible=collectible;
 		super();
 	}
 
