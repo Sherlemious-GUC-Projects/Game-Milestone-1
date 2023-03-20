@@ -8,8 +8,8 @@ public class CollectibleCell extends Cell {
 		return collectible;
 	}
 	public CollectibleCell(Collectible collectible){
-		this.collectible=collectible;
 		super();
+		this.collectible=collectible;
 	}
 
 	
