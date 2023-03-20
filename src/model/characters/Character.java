@@ -4,7 +4,7 @@ import java.awt.Point;
 // TODO
 public abstract class Character {
 	private String name;
-    private Point Location;
+    private Point location;
     private int maxHp;
     private int currentHp;
     private int attackDmg;
