@@ -42,7 +42,7 @@ public class Game {
                 default:
                     throw new IllegalStateException("Unexpected value: " + type);
             }
-            availableHeros.add(hero);
+            availableHeroes.add(hero);
 
         }
     }
