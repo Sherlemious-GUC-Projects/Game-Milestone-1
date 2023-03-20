@@ -20,7 +20,7 @@ public abstract class Character {
 		return location;
 	}
 	public void setLocation(Point location) {
-		location = location;
+		this.location = location;
 	}
 	
 	public int getMaxHp() {
