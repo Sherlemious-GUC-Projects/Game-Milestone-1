@@ -5,8 +5,9 @@ public class CharacterCell extends Cell{
 	private Character character;
 	private boolean isSafe;
 	
-	public CharacterCell(){
+	public CharacterCell(Character character){
 		super();
+		setCharacter(character);
 	}
 
 	public Character getCharacter() {
