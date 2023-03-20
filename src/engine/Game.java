@@ -14,7 +14,7 @@ public class Game {
     public static ArrayList<Zombie> zombies;
     public static Cell[][] map;
 
-    public static void loadHeros(String path) throws FileNotFoundException {
+    public static void loadHeroes(String path) throws FileNotFoundException {
         File file = new File(path);
 
         Scanner fileReader = new Scanner(file);
