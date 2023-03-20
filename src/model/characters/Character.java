@@ -17,10 +17,10 @@ public abstract class Character {
 	}
 	
 	public Point getLocation() {
-		return Location;
+		return location;
 	}
 	public void setLocation(Point location) {
-		Location = location;
+		location = location;
 	}
 	
 	public int getMaxHp() {
