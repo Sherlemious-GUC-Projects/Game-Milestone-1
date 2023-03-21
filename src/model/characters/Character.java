@@ -30,8 +30,8 @@ public abstract class Character {
 	public int getCurrentHp() {
 		return currentHp;
 	}
-	public void setCurrentHp(int currentHp) {
-		this.currentHp = currentHp;
+	public void setCurrentHp(int CurrentHp) {
+		this.currentHp = CurrentHp;
 	}
 
 	public int getAttackDmg() {

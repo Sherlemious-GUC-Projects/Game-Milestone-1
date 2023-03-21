@@ -1,5 +1,6 @@
 package exceptions;
-// TODO: Is this class abstract? No objects are to be created from this class.
 
-public class GameActionException {
+public abstract class GameActionException extends Exception{
+	public GameActionException(){super();}
+	public GameActionException(String s){super(s);}
 }

@@ -1,4 +1,6 @@
 package exceptions;
-// TODO: 1. Create a new class called NoAvailableResourcesException that extends Exception.
-public class NoAvailableResourcesException {
+
+public abstract class NoAvailableResourcesException extends GameActionException {
+	public NoAvailableResourcesException () {super();}
+	public NoAvailableResourcesException (String s) {super(s);}
 }
