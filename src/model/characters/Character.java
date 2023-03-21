@@ -1,6 +1,8 @@
 package model.characters;
 import java.awt.Point;
 
+import static java.lang.Math.min;
+
 public abstract class Character {
 	private String name;
     private Point location;
@@ -30,12 +32,7 @@ public abstract class Character {
 		return currentHp;
 	}
 	public void setCurrentHp(int CurrentHp) {
-				if(currentHp>this.maxHp){
-			this.currentHp=this.maxHp;
-		}
-		else{
-		this.currentHp = currentHp;
-		}
+		this.currentHp = min(CurrentHp, maxHp);
 	}
 
 	public int getAttackDmg() {
