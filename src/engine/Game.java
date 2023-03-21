@@ -9,12 +9,12 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 public class Game {
-    public static ArrayList<Hero> availableHeros;
-    public static ArrayList<Hero> heros;
+    public static ArrayList<Hero> availableHeroes;
+    public static ArrayList<Hero> heroes;
     public static ArrayList<Zombie> zombies;
     public static Cell[][] map;
 
-    public static void loadHeros(String path) throws FileNotFoundException {
+    public static void loadHeroes(String path) throws FileNotFoundException {
         File file = new File(path);
 
         Scanner fileReader = new Scanner(file);
@@ -42,7 +42,7 @@ public class Game {
                 default:
                     throw new IllegalStateException("Unexpected value: " + type);
             }
-            availableHeros.add(hero);
+            availableHeroes.add(hero);
 
         }
     }
