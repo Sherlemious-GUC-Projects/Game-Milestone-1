@@ -21,7 +21,12 @@ public class Hero extends Character {
 		return actionsAvailable;
 	}
 	public void setActionsAvailable(int actionsAvailable) {
+				if(actionsAvailable>this.maxActions){
+			this.actionsAvailable=this.maxActions;
+		}
+		else{
 		this.actionsAvailable = actionsAvailable;
+		}
 	}
 	
 	public int getMaxActions() {
