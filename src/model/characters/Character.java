@@ -33,6 +33,9 @@ public abstract class Character {
 	}
 	public void setCurrentHp(int CurrentHp) {
 		this.currentHp = min(CurrentHp, maxHp);
+		if(this.currentHp<=0){
+			this.currentHp=0;
+		}
 	}
 
 	public int getAttackDmg() {
